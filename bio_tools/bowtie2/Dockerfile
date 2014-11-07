@@ -11,4 +11,3 @@ RUN wget -q -O bowtie2.zip http://sourceforge.net/projects/bowtie-bio/files/bowt
   rm bowtie2.zip
 
 ENV PATH $PATH:/opt/bowtie2
-
