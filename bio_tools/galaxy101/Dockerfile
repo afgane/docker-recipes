@@ -28,4 +28,3 @@ RUN chmod a+x /tools/sorter.py
 # Install Grouping tool
 RUN wget -O grouping.py https://bitbucket.org/galaxy/galaxy-central/raw/37fb229769f4a1cc02d7df26790c5c6f13e913d6/tools/stats/grouping.py
 RUN ln -s /tools/grouping.py /usr/bin
-RUN chmod a+x /tools/grouping.py
