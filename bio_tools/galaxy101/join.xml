@@ -1,4 +1,4 @@
-<tool id="gops_join_1" name="Join" version="1.0.1">
+<tool id="gops_join_1" name="Join" version="1.0.0-docker">
   <description>the intervals of two datasets side-by-side</description>
   <requirements>
     <container type="docker">afgane/galaxy101</container>
