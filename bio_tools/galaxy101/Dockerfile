@@ -33,3 +33,8 @@ RUN chmod a+x /tools/grouping.py
 RUN wget -O /tools/joinWrapper.py https://bitbucket.org/galaxy/galaxy-central/raw/37fb229769f4a1cc02d7df26790c5c6f13e913d6/tools/filters/joinWrapper.py
 RUN ln -s /tools/joinWrapper.py /usr/bin
 RUN chmod a+x /tools/joinWrapper.py
+
+# Install 'Select first' tool
+RUN wget -O /tools/headWrapper.pl https://raw.githubusercontent.com/galaxyproject/tools-devteam/d155d6caf747a7c59ebd6d5752c942e63a75939f/tools/show_beginning/headWrapper.pl
+RUN ln -s /tools/headWrapper.pl /usr/bin
+RUN chmod a+x /tools/headWrapper.pl
