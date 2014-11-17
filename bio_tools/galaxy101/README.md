@@ -41,7 +41,8 @@ is necessary:
             ...
             <destination id="pulsar_server" runner="pulsar_rest">
                 <param id="docker_enabled">true</param>
-                <param id="url">http://<pulsar_server_ip>:<pulsar_server_port>/</param>
+                <param id="docker_set_user">[galaxy_user_uid (eg, 1001 for CloudMan)]</param>
+                <param id="url">http://[pulsar_server_ip]:[pulsar_server_port]/</param>
             </destination>
             ...
         </destinations>
